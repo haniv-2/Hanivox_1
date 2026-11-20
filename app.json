@@ -3,7 +3,7 @@
     "name": "Hanivox",
     "slug": "hanivox",
     "scheme": "hanivox",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#07070B",
@@ -38,8 +38,7 @@
               "pickFirst": [
                 "**/libc++_shared.so"
               ]
-            },
-            "extraProguardRules": "-dontwarn java.awt.**\n-dontwarn javax.swing.**\n-dontwarn com.sun.jna.**\n-keep class com.sun.jna.** { *; }\n-keep class * implements com.sun.jna.** { *; }"
+            }
           }
         }
       ]
