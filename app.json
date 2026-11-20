@@ -38,7 +38,8 @@
               "pickFirst": [
                 "**/libc++_shared.so"
               ]
-            }
+            },
+            "extraProguardRules": "-dontwarn java.awt.**\n-dontwarn javax.swing.**\n-dontwarn com.sun.jna.**\n-keep class com.sun.jna.** { *; }\n-keep class * implements com.sun.jna.** { *; }"
           }
         }
       ]
